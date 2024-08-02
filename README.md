@@ -1,4 +1,4 @@
-This is a data science based project which analyses the sentiments of Youtube comments. VADER library is used to analyse the sentiments. 
+This is a machine learning based project which analyses the sentiments of Youtube comments. VADER library is used to analyse the sentiments. 
 Steps to Replicate :
 1.  Create your api key for youtube from https://developers.google.com
 2.  Download conda
