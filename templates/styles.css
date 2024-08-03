@@ -1,0 +1,94 @@
+body {
+  font-family: "arial", "Sans-serid";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*background-color: white;*/
+ 
+  background-position: center;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  /*font-family: 'pabyrus', 'fantasy';*/
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 100px; /* Adjust the margin between items */
+  display: inline-block; /* Display items inline */
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00; /* Change the color on hover */
+}
+#p1{
+  color: red;
+  padding: 1 em;
+  text-align: center;
+  font-size:50px;
+  
+}
+h4{
+  color:black;
+  text-align: center;
+  padding:top; 
+  font-family:monospace;
+  font-size: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+.search-container {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: rgb(0, 68, 255);
+  background-color: aqua;
+  border-radius: 5px;
+  transition: all 0.25 ease;
+}
+button:active {
+  transform: scale(0.96);
+}
+div {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Preahvihear&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Preahvihear&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Feedback Generator</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" id="home">Home</a>
+        <a href="#" id="abbout">About</a>
+        <a href="#" id="services">Services</a>
+        <a href="#" id="contacts">Contact</a>
+      </nav>
+    </header>
+
+    <div class="tool header">
+      <h1 id="p1">ANALYZE YOUTUBE COMMENTS</h1>
+      <h4 id="p2">
+        Decode your youtube audience sentiments with Feedback Generator
+      </h4>
+    </div>
+    <form action="{{ url_for('analyse_sentiment') }}" method="post">
+      <label for="video_id" id="formtext">Enter YouTube Video URL:</label>
+      <input type="text" id="video_id" name="Video_id" required />
+      <button type="submit">Analyze</button>
+    </form>
+    <section id="about">
+      <div class="about-container">
+        <div class="about-point">
+          <h5 id="about1">Easy to <br>use </h5>
+          <h5> 
+        </div>
+        <div id="about2">
+          <h5>User Friendly<br> Interface </h5>
+        </div>
+        <div id="about3">
+          <h5>Visualize Sentiments</h5>
+        </div>
+      </div></section>
+      
+        <p id="step">
+          STEPS TO USE<br>
+            1. Enter the url upto its video id<br>
+            2. Click on analyze and view analyze your audience sentiments
+        </p>
+      
+   
+
+    <footer>
+      <p>&copy; 2023 Feedback Generator</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Set a background color for the body */
+body {
+  
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0,0,0,0.308)),  url("galaxy.jpg");
+  
+  background-size: 1350px 950px;
+  
+  background-position: center;
+  
+
+}
+
+/* Style the header and navigation */
+header {
+  background-color: #000000;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  margin-top: 0.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+     
+#p1 {
+  color:white;
+  padding-top: 2rem;
+ padding: bottom 0.5em;
+  text-align: center;
+  margin-bottom: 6px ;
+  font-size: 60px;
+  font-family: 'Mina', sans-serif;
+}
+h4 {
+  color: yellow;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 4px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  
+}
+
+/* Style the form */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  margin-bottom:  5rem;
+  background-color: rgb(16, 3, 75);
+  opacity:0.6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#formtext{
+  font-family: 'Preahvihear', sans-serif;
+  size:20px;
+  color:white;
+}
+button {
+  background-color: yellow;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000000;
+}
+
+button:hover {
+  background-color: #78ff0a;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#about1{
+  font-size: 40px;
+  color:rgb(54, 245, 235);
+font-family: 'Preahvihear', sans-serif;
+
+}
+#about2{
+  font-size: 40px;
+  color:rgb(54, 245, 235);
+  font-family: 'Preahvihear', sans-serif
+  
+}
+#about3{
+  font-size: 40px;
+  color:rgb(54, 245, 235);
+font-family: 'Preahvihear', sans-serif;
+
+}
+
+
+#step{
+  font-size: 20px;
+  color:white;
+}
+/* Style the footer */
+footer {
+  background-color:black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
